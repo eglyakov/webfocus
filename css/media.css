@@ -1,0 +1,279 @@
+@media (max-width: 1280px) {
+    .directions-control-prev {
+        left: 1%;
+    }
+
+    .directions-control-next {
+        right: 1%;
+    }
+
+    .reviews .slick-slide {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 1190px) {
+    .nav {
+        margin-left: auto;
+        margin-top: 10px;
+    }
+
+    .nav li:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .aboutUs {
+        margin-top: 30px;
+    }
+
+    .promo-text {
+        top: calc(50% - 85px);
+    }
+
+    .promo-text .wrapper {
+        max-width: 1000px;
+    }
+
+    .promo .slider-controls {
+        bottom: 10px;
+        left: calc(50% - 35px);
+    }
+
+    .aboutUs-block,
+    .advantages-block {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .services-row.size1,
+    .services-row.size2,
+    .services-row.size3 {
+        grid-template-columns: initial;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (max-width: 1080px) {
+    .trust-text {
+        margin-right: 0;
+        max-width: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .button {
+        width: 140px;
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .header-top .icon-eae {
+        display: none;
+    }
+
+    .language {
+        display: none;
+    }
+
+    .nav-mobile .language {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: flex;
+    }
+
+    .header-bottom {
+        justify-content: center;
+    }
+
+    .promo-text h1 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .promo-text p {
+        margin: 10px 0 20px;
+        max-width: 700px;
+    }
+
+    .aboutUs-block,
+    .advantages-block {
+        grid-template-columns: initial;
+    }
+
+
+
+    .legalSupport .gradient {
+        background: rgba(255, 255, 255, 0.8);
+    }
+
+    .mainDirections2 .text {
+        flex-wrap: wrap;
+    }
+
+    .mainDirections2 h2 {
+        margin: 0 0 20px;
+    }
+
+    .reviewsPartner h2 {
+        padding-top: 160px;
+    }
+
+    .partner .text {
+        flex-wrap: wrap;
+    }
+
+    .partner p {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .partner .button {
+        width: 200px;
+        padding: 13px;
+    }
+
+
+    .infoBlock .container {
+        grid-template: initial;
+    }
+
+    .infoBlock-item.bottom {
+        grid-area: initial;
+        display: block;
+    }
+
+    .infoBlock-item.bottom p {
+        flex-basis: auto;
+        padding: 0 50px 50px;
+    }
+
+    .services-info p {
+        margin-bottom: 30px;
+    }
+
+    .trust-text {
+        margin-right: 0;
+    }
+
+    .organization .container {
+        grid-template-columns: initial;
+    }
+
+    .organization .text {
+        margin-right: 70px;
+    }
+
+    .organization-form {
+        padding: 30px;
+    }
+
+    .footer .container {
+        grid-template-columns: initial;
+    }
+}
+
+@media (max-width: 500px) {
+    section {
+        margin-top: 50px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .promo .slide {
+        height: 180px;
+        overflow: hidden;
+    }
+
+    .promo .img {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .promo img {
+        width: auto;
+        height: 100%;
+    }
+
+    .promo-text {
+        top: 20px;
+    }
+
+    .promo-text h1 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .promo-text p {
+        margin: 10px 0;
+        font-size: 12px;
+    }
+
+    .promo .slider-controls {
+        left: auto;
+        right: 10px;
+    }
+
+    .legalSupport .text {
+        margin: 30px 30px 0px;
+    }
+
+    .mainDirections2 .directionsSlider {
+        margin-top: 30px;
+    }
+
+    .services-item .color {
+        width: 35px;
+        flex-shrink: 0;
+    }
+
+    .organization-item {
+        flex-wrap: wrap;
+    }
+    
+    .organization-item .circle {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .reviews .slick-dots {
+        bottom: -15px;
+    }
+
+    .partner {
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .infoBlock {
+        padding: 40px 0 50px;
+    }
+
+    .services {
+        margin-top: 40px;
+    }
+
+    .services-info {
+        padding-bottom: 50px;
+    }
+
+    .trust {
+        padding: 40px 0;
+    }
+
+    .advantages {
+        padding-top: 40px;
+    }
+
+    .price {
+        margin-bottom: 50px;
+    }
+}
